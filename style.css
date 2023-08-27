@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(3, 3, 43);
+}
+
+nav .left {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(146, 146, 205);
+  font-size: 1.02rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.firstSection>div {
+  width: 35%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(129, 72, 183);
+}
+
+.text-gray {
+  color: gray;
+}
+
+main hr {
+  border: 0;
+  background: rgb(139, 139, 223);
+  height: 1px;
+  margin: 40px 84px;
+}
+
+.secondSection {
+  max-width: 85vw;
+  margin: auto;
+}
+
+.secondSection h1 {
+  font-size: 1.5rem;
+}
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.secondSection .vertical {
+  height: 50px;
+  width: 1px;
+  background-color: white;
+  margin: 0 140px;
+}
+
+.image-top {
+  width: 35px;
+  position: relative;
+  top: -40px;
+  left: -17px;
+}
+
+.vertical-title {
+  position: relative;
+  width: 100px;
+  top: 20px;
+  left: -40px;
+}
+
+.vertical-desc {
+  position: relative;
+  color: gray;
+  width: 150px;
+  font-size: 10px;
+  left: -50px;
+  top: 25px;
+}
+
+.thirdSection {
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+footer {
+  background-color: rgb(1, 1, 18);
+  height: 150px;
+}
+
+.flex {
+  display: flex;
+  padding-top: 25px;
+  margin: 0 200px;
+  justify-content: space-between;
+}
+
+footer ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: rgb(16, 16, 48);
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  color: rgb(16, 16, 48);
+  background-color: white;
+  font-weight: 700;
+}
